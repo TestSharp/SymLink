@@ -14,8 +14,10 @@ namespace SymlinkCreator
         {
             InitializeComponent( );
 
-            darkThemeSelectBtn.DialogResult = DialogResult.Yes;
+            consoleThemeSelectBtn.DialogResult = DialogResult.Yes;
             lightThemeSelectBtn.DialogResult = DialogResult.No;
+            colorThemeButton.DialogResult = DialogResult.OK;
+            autumnThemeButton.DialogResult = DialogResult.Cancel;
         }
 
         private void SwitchForeAndBackButtonColors( Button button )

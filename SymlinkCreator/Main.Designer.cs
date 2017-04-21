@@ -51,9 +51,9 @@
             // 
             // textBox_Link
             // 
-            this.textBox_Link.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(168)))), ((int)(((byte)(168)))));
+            this.textBox_Link.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.textBox_Link.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_Link.ForeColor = System.Drawing.Color.Black;
+            this.textBox_Link.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.textBox_Link.Location = new System.Drawing.Point(165, 139);
             this.textBox_Link.Name = "textBox_Link";
             this.textBox_Link.Size = new System.Drawing.Size(263, 20);
@@ -61,12 +61,11 @@
             // 
             // button_BrowseLink
             // 
-            this.button_BrowseLink.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.button_BrowseLink.BackColor = System.Drawing.Color.Black;
             this.button_BrowseLink.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_BrowseLink.FlatAppearance.BorderSize = 0;
             this.button_BrowseLink.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_BrowseLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button_BrowseLink.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.button_BrowseLink.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.button_BrowseLink.Location = new System.Drawing.Point(449, 133);
             this.button_BrowseLink.Name = "button_BrowseLink";
             this.button_BrowseLink.Size = new System.Drawing.Size(60, 30);
@@ -92,9 +91,9 @@
             // 
             // comboBox_Type
             // 
-            this.comboBox_Type.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(168)))), ((int)(((byte)(168)))));
+            this.comboBox_Type.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.comboBox_Type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox_Type.ForeColor = System.Drawing.Color.Black;
+            this.comboBox_Type.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.comboBox_Type.FormattingEnabled = true;
             this.comboBox_Type.Location = new System.Drawing.Point(165, 101);
             this.comboBox_Type.Name = "comboBox_Type";
@@ -126,9 +125,9 @@
             // 
             // textBox_Target
             // 
-            this.textBox_Target.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(168)))), ((int)(((byte)(168)))));
+            this.textBox_Target.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.textBox_Target.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_Target.ForeColor = System.Drawing.Color.Black;
+            this.textBox_Target.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.textBox_Target.Location = new System.Drawing.Point(165, 181);
             this.textBox_Target.Name = "textBox_Target";
             this.textBox_Target.Size = new System.Drawing.Size(263, 20);
@@ -136,12 +135,11 @@
             // 
             // button_BrowseTarget
             // 
-            this.button_BrowseTarget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.button_BrowseTarget.BackColor = System.Drawing.Color.Black;
             this.button_BrowseTarget.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_BrowseTarget.FlatAppearance.BorderSize = 0;
             this.button_BrowseTarget.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_BrowseTarget.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button_BrowseTarget.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.button_BrowseTarget.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.button_BrowseTarget.Location = new System.Drawing.Point(449, 175);
             this.button_BrowseTarget.Name = "button_BrowseTarget";
             this.button_BrowseTarget.Size = new System.Drawing.Size(60, 30);
@@ -155,9 +153,9 @@
             // 
             // textBox_CMDCommand
             // 
-            this.textBox_CMDCommand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(168)))), ((int)(((byte)(168)))));
+            this.textBox_CMDCommand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.textBox_CMDCommand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_CMDCommand.ForeColor = System.Drawing.Color.Black;
+            this.textBox_CMDCommand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.textBox_CMDCommand.Location = new System.Drawing.Point(165, 234);
             this.textBox_CMDCommand.Multiline = true;
             this.textBox_CMDCommand.Name = "textBox_CMDCommand";
@@ -178,12 +176,11 @@
             // 
             // button_CreateLink
             // 
-            this.button_CreateLink.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.button_CreateLink.BackColor = System.Drawing.Color.Black;
             this.button_CreateLink.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_CreateLink.FlatAppearance.BorderSize = 0;
             this.button_CreateLink.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_CreateLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button_CreateLink.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.button_CreateLink.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.button_CreateLink.Location = new System.Drawing.Point(35, 312);
             this.button_CreateLink.Name = "button_CreateLink";
             this.button_CreateLink.Size = new System.Drawing.Size(90, 60);
@@ -200,12 +197,11 @@
             // 
             // closeButton
             // 
-            this.closeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.closeButton.BackColor = System.Drawing.Color.Black;
             this.closeButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.closeButton.FlatAppearance.BorderSize = 0;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.closeButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.closeButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.closeButton.Location = new System.Drawing.Point(510, 0);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(30, 30);
@@ -219,12 +215,11 @@
             // 
             // helpButton
             // 
-            this.helpButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.helpButton.BackColor = System.Drawing.Color.Black;
             this.helpButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.helpButton.FlatAppearance.BorderSize = 0;
             this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.helpButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.helpButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.helpButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.helpButton.Location = new System.Drawing.Point(440, 0);
             this.helpButton.Name = "helpButton";
             this.helpButton.Size = new System.Drawing.Size(30, 30);
@@ -250,12 +245,11 @@
             // 
             // buttonMinimize
             // 
-            this.buttonMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.buttonMinimize.BackColor = System.Drawing.Color.Black;
             this.buttonMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonMinimize.FlatAppearance.BorderSize = 0;
             this.buttonMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonMinimize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.buttonMinimize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.buttonMinimize.Location = new System.Drawing.Point(475, 0);
             this.buttonMinimize.Name = "buttonMinimize";
             this.buttonMinimize.Size = new System.Drawing.Size(30, 30);
@@ -269,12 +263,11 @@
             // 
             // settingsButton
             // 
-            this.settingsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.settingsButton.BackColor = System.Drawing.Color.Black;
             this.settingsButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.settingsButton.FlatAppearance.BorderSize = 0;
             this.settingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.settingsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.settingsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.settingsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.settingsButton.Location = new System.Drawing.Point(370, 0);
             this.settingsButton.Name = "settingsButton";
             this.settingsButton.Size = new System.Drawing.Size(65, 30);
@@ -289,7 +282,7 @@
             // Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.ClientSize = new System.Drawing.Size(540, 396);
             this.ControlBox = false;
             this.Controls.Add(this.settingsButton);
@@ -308,7 +301,7 @@
             this.Controls.Add(this.button_BrowseLink);
             this.Controls.Add(this.comboBox_Type);
             this.Controls.Add(this.button_BrowseTarget);
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(182)))), ((int)(((byte)(16)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
