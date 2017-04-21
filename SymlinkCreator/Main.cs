@@ -157,7 +157,7 @@ namespace SymlinkCreator
 
         public void ChangeToConsoleTheme()
         {
-            this.BackColor                      = Color.FromArgb( 20, 20, 20 );
+            this.BackColor                      = Color.FromArgb( 30, 30, 30 );
             this.ForeColor                      = Color.FromArgb( 39, 182, 16 );
 
             buttonMinimize.BackColor            = Color.Black;
@@ -168,22 +168,6 @@ namespace SymlinkCreator
             closeButton.BackColor               = Color.Black;
             settingsButton.BackColor            = Color.Black;
 
-            buttonMinimize.FlatAppearance.BorderColor       = Color.FromArgb( 39, 182, 16 );
-            button_BrowseLink.FlatAppearance.BorderColor    = Color.FromArgb( 39, 182, 16 );
-            button_BrowseTarget.FlatAppearance.BorderColor  = Color.FromArgb( 39, 182, 16 );
-            button_CreateLink.FlatAppearance.BorderColor    = Color.FromArgb( 39, 182, 16 );
-            helpButton.FlatAppearance.BorderColor           = Color.FromArgb( 39, 182, 16 );
-            closeButton.FlatAppearance.BorderColor          = Color.FromArgb( 39, 182, 16 );
-            settingsButton.FlatAppearance.BorderColor       = Color.FromArgb( 39, 182, 16 );
-
-            buttonMinimize.FlatAppearance.BorderSize        = 1;
-            button_BrowseLink.FlatAppearance.BorderSize     = 1;
-            button_BrowseTarget.FlatAppearance.BorderSize   = 1;
-            button_CreateLink.FlatAppearance.BorderSize     = 1;
-            helpButton.FlatAppearance.BorderSize            = 1;
-            closeButton.FlatAppearance.BorderSize           = 1;
-            settingsButton.FlatAppearance.BorderSize        = 1;
-
             buttonMinimize.ForeColor            = Color.FromArgb( 39, 182, 16 );
             button_BrowseLink.ForeColor         = Color.FromArgb( 39, 182, 16 );
             button_BrowseTarget.ForeColor       = Color.FromArgb( 39, 182, 16 );
@@ -192,10 +176,10 @@ namespace SymlinkCreator
             closeButton.ForeColor               = Color.FromArgb( 39, 182, 16 );
             settingsButton.ForeColor            = Color.FromArgb( 39, 182, 16 );
 
-            textBox_CMDCommand.BackColor        = Color.FromArgb( 40, 40, 40 );
-            textBox_Link.BackColor              = Color.FromArgb( 40, 40, 40 );
-            textBox_Target.BackColor            = Color.FromArgb( 40, 40, 40 );
-            comboBox_Type.BackColor             = Color.FromArgb( 40, 40, 40 );
+            textBox_CMDCommand.BackColor        = Color.FromArgb( 50, 50, 50 );
+            textBox_Link.BackColor              = Color.FromArgb( 50, 50, 50 );
+            textBox_Target.BackColor            = Color.FromArgb( 50, 50, 50 );
+            comboBox_Type.BackColor             = Color.FromArgb( 50, 50, 50 );
 
             textBox_CMDCommand.ForeColor        = Color.FromArgb( 39, 182, 16 );
             textBox_Link.ForeColor              = Color.FromArgb( 39, 182, 16 );
@@ -205,32 +189,16 @@ namespace SymlinkCreator
 
         public void ChangeToLightTheme()
         {
-            this.BackColor                      = Color.Gainsboro;
+            this.BackColor                      = Color.FromArgb( 235, 235, 235 );
             this.ForeColor                      = Color.MidnightBlue;
 
-            buttonMinimize.BackColor            = Color.FromArgb( 190, 190, 190 );
-            button_BrowseLink.BackColor         = Color.FromArgb( 190, 190, 190 );
-            button_BrowseTarget.BackColor       = Color.FromArgb( 190, 190, 190 );
-            button_CreateLink.BackColor         = Color.FromArgb( 190, 190, 190 );
-            helpButton.BackColor                = Color.FromArgb( 190, 190, 190 );
-            closeButton.BackColor               = Color.FromArgb( 190, 190, 190 );
-            settingsButton.BackColor            = Color.FromArgb( 190, 190, 190 );
-
-            buttonMinimize.FlatAppearance.BorderColor       = Color.MidnightBlue;
-            button_BrowseLink.FlatAppearance.BorderColor    = Color.MidnightBlue;
-            button_BrowseTarget.FlatAppearance.BorderColor  = Color.MidnightBlue;
-            button_CreateLink.FlatAppearance.BorderColor    = Color.MidnightBlue;
-            helpButton.FlatAppearance.BorderColor           = Color.MidnightBlue;
-            closeButton.FlatAppearance.BorderColor          = Color.MidnightBlue;
-            settingsButton.FlatAppearance.BorderColor       = Color.MidnightBlue;
-
-            buttonMinimize.FlatAppearance.BorderSize        = 1;
-            button_BrowseLink.FlatAppearance.BorderSize     = 1;
-            button_BrowseTarget.FlatAppearance.BorderSize   = 1;
-            button_CreateLink.FlatAppearance.BorderSize     = 1;
-            helpButton.FlatAppearance.BorderSize            = 1;
-            closeButton.FlatAppearance.BorderSize           = 1;
-            settingsButton.FlatAppearance.BorderSize        = 1;
+            buttonMinimize.BackColor            = Color.FromArgb( 180, 180, 180 );
+            button_BrowseLink.BackColor         = Color.FromArgb( 180, 180, 180 );
+            button_BrowseTarget.BackColor       = Color.FromArgb( 180, 180, 180 );
+            button_CreateLink.BackColor         = Color.FromArgb( 180, 180, 180 );
+            helpButton.BackColor                = Color.FromArgb( 180, 180, 180 );
+            closeButton.BackColor               = Color.FromArgb( 180, 180, 180 );
+            settingsButton.BackColor            = Color.FromArgb( 180, 180, 180 );
 
             buttonMinimize.ForeColor            = Color.MidnightBlue;
             button_BrowseLink.ForeColor         = Color.MidnightBlue;
@@ -264,22 +232,6 @@ namespace SymlinkCreator
             closeButton.BackColor               = Color.FromArgb( 8, 49, 118 );
             settingsButton.BackColor            = Color.FromArgb( 8, 49, 118 );
 
-            buttonMinimize.FlatAppearance.BorderColor       = Color.FromArgb( 255, 245, 22 );
-            button_BrowseLink.FlatAppearance.BorderColor    = Color.FromArgb( 255, 245, 22 );
-            button_BrowseTarget.FlatAppearance.BorderColor  = Color.FromArgb( 255, 245, 22 );
-            button_CreateLink.FlatAppearance.BorderColor    = Color.FromArgb( 255, 245, 22 );
-            helpButton.FlatAppearance.BorderColor           = Color.FromArgb( 255, 245, 22 );
-            closeButton.FlatAppearance.BorderColor          = Color.FromArgb( 255, 245, 22 );
-            settingsButton.FlatAppearance.BorderColor       = Color.FromArgb( 255, 245, 22 );
-
-            buttonMinimize.FlatAppearance.BorderSize        = 1;
-            button_BrowseLink.FlatAppearance.BorderSize     = 1;
-            button_BrowseTarget.FlatAppearance.BorderSize   = 1;
-            button_CreateLink.FlatAppearance.BorderSize     = 1;
-            helpButton.FlatAppearance.BorderSize            = 1;
-            closeButton.FlatAppearance.BorderSize           = 1;
-            settingsButton.FlatAppearance.BorderSize        = 1;
-
             buttonMinimize.ForeColor            = Color.FromArgb( 255, 245, 22 );
             button_BrowseLink.ForeColor         = Color.FromArgb( 255, 245, 22 );
             button_BrowseTarget.ForeColor       = Color.FromArgb( 255, 245, 22 );
@@ -304,29 +256,13 @@ namespace SymlinkCreator
             this.BackColor                      = Color.FromArgb( 195, 49, 6 );
             this.ForeColor                      = Color.FromArgb( 62, 13, 0 );
 
-            buttonMinimize.BackColor            = Color.FromArgb( 195, 49, 6 );
-            button_BrowseLink.BackColor         = Color.FromArgb( 195, 49, 6 );
-            button_BrowseTarget.BackColor       = Color.FromArgb( 195, 49, 6 );
-            button_CreateLink.BackColor         = Color.FromArgb( 195, 49, 6 );
-            helpButton.BackColor                = Color.FromArgb( 195, 49, 6 );
-            closeButton.BackColor               = Color.FromArgb( 195, 49, 6 );
-            settingsButton.BackColor            = Color.FromArgb( 195, 49, 6 );
-
-            buttonMinimize.FlatAppearance.BorderColor       = Color.FromArgb( 62, 13, 0 );
-            button_BrowseLink.FlatAppearance.BorderColor    = Color.FromArgb( 62, 13, 0 );
-            button_BrowseTarget.FlatAppearance.BorderColor  = Color.FromArgb( 62, 13, 0 );
-            button_CreateLink.FlatAppearance.BorderColor    = Color.FromArgb( 62, 13, 0 );
-            helpButton.FlatAppearance.BorderColor           = Color.FromArgb( 62, 13, 0 );
-            closeButton.FlatAppearance.BorderColor          = Color.FromArgb( 62, 13, 0 );
-            settingsButton.FlatAppearance.BorderColor       = Color.FromArgb( 62, 13, 0 );
-
-            buttonMinimize.FlatAppearance.BorderSize        = 1;
-            button_BrowseLink.FlatAppearance.BorderSize     = 1;
-            button_BrowseTarget.FlatAppearance.BorderSize   = 1;
-            button_CreateLink.FlatAppearance.BorderSize     = 1;
-            helpButton.FlatAppearance.BorderSize            = 1;
-            closeButton.FlatAppearance.BorderSize           = 1;
-            settingsButton.FlatAppearance.BorderSize        = 1;
+            buttonMinimize.BackColor            = Color.FromArgb( 195, 86, 49 );
+            button_BrowseLink.BackColor         = Color.FromArgb( 195, 86, 49 );
+            button_BrowseTarget.BackColor       = Color.FromArgb( 195, 86, 49 );
+            button_CreateLink.BackColor         = Color.FromArgb( 195, 86, 49 );
+            helpButton.BackColor                = Color.FromArgb( 195, 86, 49 );
+            closeButton.BackColor               = Color.FromArgb( 195, 86, 49 );
+            settingsButton.BackColor            = Color.FromArgb( 195, 86, 49 );
 
             buttonMinimize.ForeColor            = Color.FromArgb( 62, 13, 0 );
             button_BrowseLink.ForeColor         = Color.FromArgb( 62, 13, 0 );
